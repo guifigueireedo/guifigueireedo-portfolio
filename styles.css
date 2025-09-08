@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Frutiger';
+  src: url(frutiger.ttf);
+}
+
+body {
+  margin: 0;
+  background: url("imgs/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li {
+  font-family: 'Frutiger', sans-serif;
+}
+
+a {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 15px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container-inside {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.container-inside-2 {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+}
