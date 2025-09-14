@@ -45,7 +45,7 @@ p {
 /* ===== RESPONSIVIDADE ===== */
 @media (max-width: 768px) {
   body {
-    background-attachment: scroll; /* mantém o fundo */
+    background-attachment: fixed; /* mantém o fundo */
     font-size: 14px;
   }
 
